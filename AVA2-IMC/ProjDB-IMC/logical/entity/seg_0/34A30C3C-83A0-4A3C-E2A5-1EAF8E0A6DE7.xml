@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="34A30C3C-83A0-4A3C-E2A5-1EAF8E0A6DE7" name="Pessoa">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-28 22:40:46 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="nomePessoa" id="25AAB019-AA30-1C86-AC33-DCF2847A57EB">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-28 22:41:09 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cpfPessoa" id="70C1EFBE-AC46-2A57-CF63-35AF0D1BC860">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-28 22:41:44 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sexoPessoa" id="FE48818D-CC4A-E45D-1826-38D36F4E2001">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-29 00:29:29 UTC</createdTime>
+<generatorID>893F4183-EB3B-4081-BC12-DF3D3DD6E21E</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="03ED8D60-2B19-ACE3-4DB4-F4F2E022F37C" name="Pessoa_PK">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-28 22:41:54 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="7EAF14BD-0C8B-A1EB-24F6-8DB87DAD196B" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>70C1EFBE-AC46-2A57-CF63-35AF0D1BC860</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

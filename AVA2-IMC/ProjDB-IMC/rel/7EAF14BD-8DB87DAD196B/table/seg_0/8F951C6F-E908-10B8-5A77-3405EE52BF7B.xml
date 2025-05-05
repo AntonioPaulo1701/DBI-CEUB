@@ -1,0 +1,39 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8F951C6F-E908-10B8-5A77-3405EE52BF7B" name="log_seguranca">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-29 00:37:04 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<ordsAlias>table_4</ordsAlias>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cpf" id="BC7FD0C8-79BD-C16B-DBA2-64634E8A6C30">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-29 00:37:27 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="946AB1D9-B780-9389-EE34-90B6E497AB6F">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-29 00:37:32 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="operecao" id="34844C90-8581-42CD-7B4A-1D97C2E91CD7">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-29 00:37:40 UTC</createdTime>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+</Table>

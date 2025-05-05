@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="03865308-237E-8D6D-36A8-AE05CD5048B4" containerWithKeyObject="E00BD44B-5CDC-7A88-61C9-E52C791713AC" localFKIndex="16AE384E-7422-B94F-39A7-50C5AEFC0EFB" name="IMCHistorico_Pessoa_FK">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-04-28 23:45:58 UTC</createdTime>
+<generatorID>37A842ED-312D-F4EC-3E18-83313888B7F6</generatorID>
+<ownerDesignName>ProjDB-IMC </ownerDesignName>
+<referredTableLongName>Pessoa</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>2BA1824C-11E8-FF6A-4633-77DF10A2AB31</referredTableID>
+<keyObject>8B82DF1C-AE0B-222E-9D12-F4EB99EA48D6</keyObject>
+<referredKeyID>8B82DF1C-AE0B-222E-9D12-F4EB99EA48D6</referredKeyID>
+<mandatory>false</mandatory>
+<refColNames>cpfPessoa</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>
