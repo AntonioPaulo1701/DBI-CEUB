@@ -42,21 +42,6 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>11,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="matriculaVendedor" id="590BA9DE-A84A-A900-34B7-FC7877D32020">
-<createdBy>antonio.varaujo</createdBy>
-<createdTime>2025-05-06 00:14:32 UTC</createdTime>
-<generatorID>9314113D-5A8A-5E86-B4C9-137D1EBD2679</generatorID>
-<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
-<engineerTo>
-<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
-</engineerTo>
-<referedAttribute>822C0DFA-E1C9-5365-8967-46A568BC5756</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT025</logicalDatatype>
-<dataTypeSize>8</dataTypeSize>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="8C9164F6-B4A4-A361-F95C-6D8E318D6E8A" name="Clientes PK">

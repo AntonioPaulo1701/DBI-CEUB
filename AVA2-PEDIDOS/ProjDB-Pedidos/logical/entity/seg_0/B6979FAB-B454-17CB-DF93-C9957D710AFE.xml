@@ -70,6 +70,21 @@
 <dataTypeSize>11</dataTypeSize>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="matriculaVendedor" id="65FBEA0D-CDF7-B58F-217E-A424DF28C813">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:40:46 UTC</createdTime>
+<generatorID>1E71E332-5DC6-685F-1A82-226DAF9CBB0A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<referedAttribute>822C0DFA-E1C9-5365-8967-46A568BC5756</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="772ADACB-B189-27DA-6841-6E83027AEA47" name="Pedido PK">

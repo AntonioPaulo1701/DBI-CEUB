@@ -61,6 +61,22 @@
 <colAssociation fkAssociation="4C1ADACB-9A41-A6CD-6662-B023A417A5F6" referredColumn="A3D6232C-86E8-D882-07F4-174F495EF511"/>
 </associations>
 </Column>
+<Column name="matriculaVendedor" id="13A380D8-C214-0883-A04F-8EAD31D5F4EF">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:41:29 UTC</createdTime>
+<generatorID>65FBEA0D-CDF7-B58F-217E-A424DF28C813</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="856309A7-A36C-BC12-37AF-C65908F79283" referredColumn="5B36A1C1-47B7-CF92-FA1D-4313EC231640"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
 <ind_PK_UK id="DF7E826B-EDEE-27EF-875C-36DFF5359429" name="Pedido_PK">
@@ -84,6 +100,17 @@
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
 <colUsage columnID="89CBD84E-A1A3-A27F-71B9-DC04BFFBFFF1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E170F209-2D79-FC79-1EEB-ADBC2BB6C155" name="Relation_7">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:41:29 UTC</createdTime>
+<generatorID>1E71E332-5DC6-685F-1A82-226DAF9CBB0A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="13A380D8-C214-0883-A04F-8EAD31D5F4EF"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
