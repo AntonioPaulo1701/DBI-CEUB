@@ -1,0 +1,103 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA1013AC-2E5F-3843-29AC-135B72A00A94" name="Clientes">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>D2B1030F-5446-F32D-DE0D-9E7EAD1F70BD</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="nomeCliente" id="F18E8BDE-D227-1E8F-3E9D-EF8BD9AB9D84">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>515E37DB-117C-92AC-5954-BC7E5F0A7685</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="A3D6232C-86E8-D882-07F4-174F495EF511">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>E4BE4568-DF00-0860-069E-3B4B37029DA0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>11,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="matriculaVendedor" id="74E87AF9-51E0-0B68-B60C-08B81BB722A6">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>590BA9DE-A84A-A900-34B7-FC7877D32020</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="56270964-E540-EDD4-EF7A-D9A5915F015F" referredColumn="5B36A1C1-47B7-CF92-FA1D-4313EC231640"/>
+</associations>
+</Column>
+<Column name="EndereçoCliente_EndereçoCliente_ID" id="5B5628ED-58F3-55B2-D8AB-F6CF8EB407E3">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4E32B04F-577D-00DD-9FCD-D05A7A3A40DA" referredColumn="BB67F7C4-FDF9-9B57-3D7E-58641EC12F04"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="27D0281C-2C3C-0343-0871-1B5BBE9B31DE" name="Clientes_PK">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>8C9164F6-B4A4-A361-F95C-6D8E318D6E8A</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A3D6232C-86E8-D882-07F4-174F495EF511"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="44983724-3869-5B78-E3F2-8E92D91F2F65" name="Relacao_endereco_Cliente">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>F9A3B16B-AC54-944D-C137-035B2FF191B2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5B5628ED-58F3-55B2-D8AB-F6CF8EB407E3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="296BF9E4-A697-788B-0845-0600DB9D07B8" name="Relacao_Vendedor_Cliente">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>9314113D-5A8A-5E86-B4C9-137D1EBD2679</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="74E87AF9-51E0-0B68-B60C-08B81BB722A6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

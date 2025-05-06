@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="58E25AFB-AAB8-79A2-B288-C6FD0EE5388F" name="IntesnDoPedido">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-05 23:39:09 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="descricaooProduto" id="831E86C4-B92A-BB32-C568-B7BFD5C52ADE">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-05 23:43:19 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="codigoProduto" id="74B7C592-433C-7043-ED94-15416B6804DA">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-05 23:45:12 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>4</dataTypeSize>
+<ownDataTypeParameters>4,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="quantidadeProduto" id="6D57999A-7611-2BD6-F64E-FDBA136DA172">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-05 23:46:48 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>3,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precoUnitarioProduto" id="8F8AD1AD-62A7-1359-70E7-E07C154C02E9">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-05 23:48:18 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="indetificaçãoPedido" id="B234CB42-502C-2854-19E0-51D65281B471">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:12:30 UTC</createdTime>
+<generatorID>1FBB0476-9A40-1991-99F3-DE8C095DEBF0</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<referedAttribute>AEE04BB8-D312-3D89-F174-56E95C86538B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D2E4BA1C-ED8C-C2C5-DD00-43E87EA3E525" name="IntesnDoPedido PK">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:10:40 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<engineerTo>
+<item key="20C8CC67-E837-E230-1CF2-AE02E1406915" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>74B7C592-433C-7043-ED94-15416B6804DA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

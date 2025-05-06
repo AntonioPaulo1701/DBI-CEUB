@@ -1,0 +1,54 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8A714472-E3E6-89DB-F9C6-48DD3B4E5068" name="TelefoneCliente">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>81B98321-A2D7-DB4A-F00E-0A86F46EBA10</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="telefone" id="19379F83-1A0B-AE02-7B7E-52DE76D43E10">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>F331920F-36F1-B3D6-D2C5-527DC29DF10D</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>18</dataTypeSize>
+<ownDataTypeParameters>18,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cpfCliente" id="67B8A82A-5C1F-0784-6DC4-3D63215119EB">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>AC35F7FC-EEDC-1FDD-2738-FE1049E495B2</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>11</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A4273EAF-7965-A02D-FF2F-91535880FC8D" referredColumn="A3D6232C-86E8-D882-07F4-174F495EF511"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5EFA5389-FDC1-C99E-061B-CB53BC512227" name="Relation_1">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-06 00:20:34 UTC</createdTime>
+<generatorID>43C313E1-7724-F00E-632E-6F0D33E6E14F</generatorID>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="67B8A82A-5C1F-0784-6DC4-3D63215119EB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

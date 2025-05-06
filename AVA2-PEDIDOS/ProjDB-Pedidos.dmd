@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="ProjDB-Pedidos" id="C2C71B48-E90F-5736-D913-37BCA4089C87" version="3.5">
+<createdBy>antonio.varaujo</createdBy>
+<createdTime>2025-05-05 23:06:23 UTC</createdTime>
+<ownerDesignName>ProjDB-Pedidos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>C2C71B48-E90F-5736-D913-37BCA4089C87</designId>
+</OSDM_Design>
